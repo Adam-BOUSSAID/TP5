@@ -1,4 +1,5 @@
 /* variables declaration */
+/* variables declaration */
 :root {
 	--primary-color: #3396C0;
 	--secondary-color: #CD006B;
@@ -104,20 +105,11 @@ header {
 	background-color: var(--secondary-color);
 }
 
-/* .container-nav {
-	background-color: #d0e5ee;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding: 20px;
-}
- */
-
 #banner {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
 	min-height: 470px;
 	position: relative;
@@ -298,18 +290,6 @@ footer div {
 	font-size: 16px;
 
 }
-
-/* .banner-img {
-	display: none;
-}
-
-img.active {
-	display: block;;
-}
-
-
-
- */
 
 @media all and (max-width: 1250px) {
 	#contact > article {
